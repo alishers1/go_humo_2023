@@ -1,7 +1,12 @@
 package main
 
-import "monopoly/pkg"
+import (
+	"tasks/internal"
+)
 
 func main() {
-	pkg.WriteInFile()
+	//pkg.WriteInFile()
+	//pkg.ReadingAndWritingFromFile()
+
+	internal.InitRoutes()
 }
